@@ -1049,7 +1049,7 @@ def update_dashboard(pol_list, year_range, country, k):
 # ============================================================
 # 6. EJECUCIÓN DEL SERVIDOR (RENDER)
 # ============================================================
- http://127.0.0.1:8050/
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
+
     app.run_server(host="0.0.0.0", port=port, debug=False)
